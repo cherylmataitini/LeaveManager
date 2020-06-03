@@ -13,7 +13,7 @@ namespace LeaveManagement.Mappings
         public Maps()
         {
             // creating the maps that should exist in our application
-            //CreateMap<DataClass,ViewModel> i.e. source and destination
+            // CreateMap<DataClass,ViewModel> i.e. source and destination
 
             CreateMap<LeaveHistory, LeaveHistoryViewModel>().ReverseMap(); // ReverseMap() allows you to map data in either direction - getting data from source -> destination & vice versa
             CreateMap<LeaveType, DetailsLeaveTypeViewModel>().ReverseMap();
